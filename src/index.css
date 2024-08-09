@@ -1,0 +1,30 @@
+/* Styles globaux */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+main {
+    background-color: #EEE;
+  }
+  
+  body {
+    font-family: 'Nunito Sans', sans-serif !important;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600 !important; 
+  }
+  
+  body, p, span, div, a, li {
+    font-weight: 400 !important;
+  }
+  
+  strong {
+    color: black;
+  }
+
+  /* footer */
+footer .list-unstyled li::before {
+    content: "> ";
+    color: blue; 
+    margin-right: 5px; 
+  }
