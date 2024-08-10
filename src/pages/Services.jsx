@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDisplay, faFileCode, faMagnifyingGlassDollar } from "@fortawesome/free-solid-svg-icons";
-import banner from '../assets/images/banner.jpg'
+import banner from '../assets/images/banner.jpg';
 import "../index.css";
 
 const Services = () => {
