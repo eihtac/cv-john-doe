@@ -22,9 +22,43 @@ main {
     color: black;
   }
 
+  /* Home */
+.home .background {
+    background: url(./assets/images/hero-bg.jpg) no-repeat center center;
+    height: 100vh;
+  }
+  
+  .home .background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .home h1 {
+    font-size: 5rem !important;
+  }
+  
+  .home button {
+    color: #0d6efd !important;
+  }
+  
+  .home h3, .home h4 {
+    color: #1e1e1e;
+  }
+  
+  .home h3 {
+    border-bottom-width: 3px !important;
+  }
+  
+  .home p, .home li {
+    color: #444;
+  }
+
   /* footer */
 footer .list-unstyled li::before {
     content: "> ";
-    color: blue; 
+    color: #0d6efd ; 
     margin-right: 5px; 
   }
