@@ -3,62 +3,81 @@
 
 main {
     background-color: #EEE;
-  }
+}
   
-  body {
+body {
     font-family: 'Nunito Sans', sans-serif !important;
     overflow-x: hidden;
-  }
+}
   
-  h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, h4, h5, h6, strong {
     font-weight: 600 !important; 
-  }
+}
   
-  body, p, span, div, a, li {
+body, p, span, div, a, li {
     font-weight: 400 !important;
-  }
+}
   
-  strong {
+strong {
     color: black;
-  }
+}
 
-  /* Home */
+/* Home */
 .home .background {
     background: url(./assets/images/hero-bg.jpg) no-repeat center center;
     height: 100vh;
-  }
+}
   
-  .home .background::before {
+.home .background::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-  }
+}
   
-  .home h1 {
+.home h1 {
     font-size: 5rem !important;
-  }
+}
   
-  .home button {
+.home button {
     color: #0d6efd !important;
-  }
+}
   
-  .home h3, .home h4 {
+.home h3, .home h4 {
     color: #1e1e1e;
-  }
+}
   
-  .home h3 {
+.home h3 {
     border-bottom-width: 3px !important;
-  }
+}
   
-  .home p, .home li {
+.home p, .home li {
     color: #444;
-  }
+}
 
-  /* footer */
+/* Services */
+.services img {
+    height: 25vh;
+}
+  
+.services h1, .services h2 {
+    color: #1e1e1e;
+}
+  
+.services p {
+    color: #444;
+}
+  
+.services .underline {
+    width: 200px;
+    height: 4px;
+    background-color: #0d6efd;
+}
+
+/* footer */
 footer .list-unstyled li::before {
     content: "> ";
     color: #0d6efd ; 
     margin-right: 5px; 
-  }
+}
