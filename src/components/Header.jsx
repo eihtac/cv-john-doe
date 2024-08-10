@@ -29,7 +29,7 @@ const Header = () => {
                             <Link to="/services" className="nav-link text-uppercase">Services</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/portfolio" className="nav-link text-uppercase">Réalisations</Link>
+                            <Link to="/realisations" className="nav-link text-uppercase">Réalisations</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/blog" className="nav-link text-uppercase">Blog</Link>

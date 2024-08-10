@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
+import Realisations from "./pages/Realisations";
 
 import "./index.css"
 
@@ -15,6 +16,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/services" element={<Services/>}></Route>
+            <Route path="/realisations" element={<Realisations/>}></Route>
           </Routes>
         </main>
         <Footer/>

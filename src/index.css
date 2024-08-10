@@ -75,6 +75,25 @@ strong {
     background-color: #0d6efd;
 }
 
+/* Réalisations */
+.portfolio .banner {
+    height: 25vh;
+}
+  
+.portfolio h1, .portfolio h2 {
+    color: #1e1e1e;
+}
+  
+.portfolio p {
+    color: #444;
+}
+  
+.portfolio .underline {
+    width: 200px;
+    height: 4px;
+    background-color: #0d6efd;
+}
+
 /* footer */
 footer .list-unstyled li::before {
     content: "> ";
