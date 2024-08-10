@@ -106,6 +106,31 @@ strong {
     background-color: blue;
 }
 
+/* Contact */
+.contact {
+    background: url(./assets/images/contact-bg.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+}
+  
+.contact .overlay {
+    background-color: rgba(0, 105, 255, 0.5);
+}
+  
+.contact .underline {
+    height: 4px;
+    background-color: blue;
+}
+  
+.contact .underline2 {
+    height: 3px;
+    background-color: blue;
+}
+  
+.content-box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* footer */
 footer .list-unstyled li::before {
     content: "> ";
