@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Realisations from "./pages/Realisations";
+import Blog from "./pages/Blog";
 
 import "./index.css"
 
@@ -17,6 +18,7 @@ const App = () => {
             <Route path="/" element={<Home/>}></Route>
             <Route path="/services" element={<Services/>}></Route>
             <Route path="/realisations" element={<Realisations/>}></Route>
+            <Route path="/blog" element={<Blog/>}></Route>
           </Routes>
         </main>
         <Footer/>

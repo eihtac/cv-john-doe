@@ -94,6 +94,18 @@ strong {
     background-color: #0d6efd;
 }
 
+/* Blog */
+.blog .banner {
+    width: 100%;
+    height: 25vh;
+}
+  
+.blog .underline {
+    width: 200px;
+    height: 4px;
+    background-color: blue;
+}
+
 /* footer */
 footer .list-unstyled li::before {
     content: "> ";
