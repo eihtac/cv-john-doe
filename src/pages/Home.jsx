@@ -1,6 +1,6 @@
 import { ProgressBar } from 'react-bootstrap';
+import johnDoeAbout from '../assets/images/john-doe-about.jpg';  
 import "../index.css";
-import johnDoeImage from '../assets/images/john-doe-about.jpg';  
 
 const Home = () => {
     return (
@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-md-6">
-                        <img src={johnDoeImage} alt="John Doe en train de travailler" className="img-fluid rounded mb-4"></img> 
+                        <img src={johnDoeAbout} alt="John Doe en train de travailler" className="img-fluid rounded mb-4"></img> 
                         <h4 className="mb-2">Mes compétences</h4>
                         <ul className="list-unstyled">
                             <li className="mb-2">HTML5 90%
