@@ -62,18 +62,18 @@ const Footer = () => {
                     <div className="col-md-3 px-5">
                         <h5>Mes dernières réalisations</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-decoration-none text-dark">Fresh food</a></li> 
-                            <li><a href="#" className="text-decoration-none text-dark">Restaurant Akira</a></li> 
-                            <li><a href="#" className="text-decoration-none text-dark">Espace bien-être</a></li> 
+                            <li><a href="/realisations" className="text-decoration-none text-dark">Fresh food</a></li> 
+                            <li><a href="/realisations" className="text-decoration-none text-dark">Restaurant Akira</a></li> 
+                            <li><a href="/realisations" className="text-decoration-none text-dark">Espace bien-être</a></li> 
                         </ul>
                     </div>
 
                     <div className="col-md-3 px-5">
                         <h5>Mes derniers articles</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-decoration-none text-dark">Coder son site en HTML/CSS</a></li> 
-                            <li><a href="#" className="text-decoration-none text-dark">Vendre ses produits sur le web</a></li> 
-                            <li><a href="#" className="text-decoration-none text-dark">Se positionner sur Google</a></li> 
+                            <li><a href="/blog" className="text-decoration-none text-dark">Coder son site en HTML/CSS</a></li> 
+                            <li><a href="/blog" className="text-decoration-none text-dark">Vendre ses produits sur le web</a></li> 
+                            <li><a href="/blog" className="text-decoration-none text-dark">Se positionner sur Google</a></li> 
                         </ul>
                     </div>
                 </div>
