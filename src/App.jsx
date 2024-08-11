@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Realisations from "./pages/Realisations";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import MentionsLegales from "./pages/MentionsLegales";
 import './index.css';
 
 import "./index.css"
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/realisations" element={<Realisations/>}></Route>
             <Route path="/blog" element={<Blog/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
+            <Route path="/mentionslegales" element={<MentionsLegales/>}></Route>
           </Routes>
         </main>
         <Footer/>
