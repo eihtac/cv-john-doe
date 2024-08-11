@@ -131,6 +131,17 @@ strong {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Mentions Légales */
+.mentions-legales .underline {
+    height: 4px;
+    width: 300px;
+    background-color: blue;
+}
+  
+.accordion-button:not(.collapsed) {
+    color: blue !important; 
+}
+
 /* footer */
 footer .list-unstyled li::before {
     content: "> ";
