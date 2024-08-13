@@ -32,8 +32,11 @@ const Footer = () => {
                         <h5>John Doe</h5>
                         <address>
                             <p>40 Rue Laure Diebold <br/> 
-                            69009 Lyon, France <br/>
-                            Téléphone : 06 20 30 40 50 </p> 
+                                69009 Lyon, France <br/>
+                                Téléphone : 06 20 30 40 50 <br/>
+                                <a href="/profilgithub" className="text-decoration-none text-dark">Profil Github</a>
+                            </p> 
+
                         </address>
                         <div>
                             <a href="https://github.com" target="blank" rel="noopener noreferrer" className="m-2"> 
