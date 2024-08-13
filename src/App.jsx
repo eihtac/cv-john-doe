@@ -7,6 +7,7 @@ import Realisations from "./pages/Realisations";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import MentionsLegales from "./pages/MentionsLegales";
+import GitHubProfile from "./components/GithubProfile";
 import './index.css';
 
 import "./index.css"
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/blog" element={<Blog/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
             <Route path="/mentionslegales" element={<MentionsLegales/>}></Route>
+            <Route path="/profilgithub" element={<GitHubProfile/>}></Route>
           </Routes>
         </main>
         <Footer/>
