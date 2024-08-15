@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -10,28 +10,24 @@ import MentionsLegales from "./pages/MentionsLegales";
 import GitHubProfile from "./components/GithubProfile";
 import './index.css';
 
-import "./index.css"
-
 const App = () => {
   return (
-    <Router>
-      <div className="d-flex flex-column min-vh-100">
-        <Header/>
-        <main className="flex-grow-1">
-          <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/services" element={<Services/>}></Route>
-            <Route path="/realisations" element={<Realisations/>}></Route>
-            <Route path="/blog" element={<Blog/>}></Route>
-            <Route path="/contact" element={<Contact/>}></Route>
-            <Route path="/mentionslegales" element={<MentionsLegales/>}></Route>
-            <Route path="/profilgithub" element={<GitHubProfile/>}></Route>
-          </Routes>
-        </main>
-        <Footer/>
-      </div>
-    </Router>
-  )
-}
+    <div className="d-flex flex-column min-vh-100">
+      <Header />
+      <main className="flex-grow-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/realisations" element={<Realisations />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/mentionslegales" element={<MentionsLegales />} />
+          <Route path="/profilgithub" element={<GitHubProfile />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
