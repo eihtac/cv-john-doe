@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faSquareTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -31,14 +32,14 @@ const Footer = () => {
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>John Doe</h5>
                         <address>
-                            <p>40 Rue Laure Diebold <br/> 
+                            <p>40 Rue Laure Diebold <br/>
                                 69009 Lyon, France <br/>
                                 Téléphone : 06 20 30 40 50 <br/>
-                                <a href="/profilgithub" className="text-decoration-none text-dark">Profil Github</a>
-                            </p> 
+                                <Link to="/profilgithub" className="text-decoration-none text-dark">Profil Github</Link>
+                            </p>
                         </address>
                         <div>
-                            <a href="https://github.com" target="blank" rel="noopener noreferrer" className="m-2"> 
+                            <a href="https://github.com" target="blank" rel="noopener noreferrer" className="m-2">
                                 <FontAwesomeIcon icon={faGithub} style={{color: "#444444"}} size="2xl"/>
                             </a>
                             <a href="https://x.com/" target="blank" rel="noopener noreferrer" className="m-2">
@@ -53,33 +54,33 @@ const Footer = () => {
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>Liens utiles</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/" className="text-decoration-none text-dark">Accueil</a></li> 
-                            <li><a href="/#about" className="text-decoration-none text-dark">À propos</a></li> 
-                            <li><a href="/services" className="text-decoration-none text-dark">Services</a></li> 
-                            <li><a href="/contact" className="text-decoration-none text-dark">Me contacter</a></li> 
-                            <li><a href="/mentionslegales" className="text-decoration-none text-dark">Mentions légales</a></li> 
+                            <li><Link to="/" className="text-decoration-none text-dark">Accueil</Link></li>
+                            <li><Link to="/#about" className="text-decoration-none text-dark">À propos</Link></li>
+                            <li><Link to="/services" className="text-decoration-none text-dark">Services</Link></li>
+                            <li><Link to="/contact" className="text-decoration-none text-dark">Me contacter</Link></li>
+                            <li><Link to="/mentionslegales" className="text-decoration-none text-dark">Mentions légales</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>Mes dernières réalisations</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/realisations" className="text-decoration-none text-dark">Fresh food</a></li> 
-                            <li><a href="/realisations" className="text-decoration-none text-dark">Restaurant Akira</a></li> 
-                            <li><a href="/realisations" className="text-decoration-none text-dark">Espace bien-être</a></li> 
+                            <li><Link to="/realisations" className="text-decoration-none text-dark">Fresh food</Link></li>
+                            <li><Link to="/realisations" className="text-decoration-none text-dark">Restaurant Akira</Link></li>
+                            <li><Link to="/realisations" className="text-decoration-none text-dark">Espace bien-être</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>Mes derniers articles</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/blog" className="text-decoration-none text-dark">Coder son site en HTML/CSS</a></li> 
-                            <li><a href="/blog" className="text-decoration-none text-dark">Vendre ses produits sur le web</a></li> 
-                            <li><a href="/blog" className="text-decoration-none text-dark">Se positionner sur Google</a></li> 
+                            <li><Link to="/blog" className="text-decoration-none text-dark">Coder son site en HTML/CSS</Link></li>
+                            <li><Link to="/blog" className="text-decoration-none text-dark">Vendre ses produits sur le web</Link></li>
+                            <li><Link to="/blog" className="text-decoration-none text-dark">Se positionner sur Google</Link></li>
                         </ul>
                     </div>
                 </div>
-                
+
                 <button className="btn btn-dark text-light text-center m-0 w-100 py-3 rounded-0 mt-4" onClick={handleScrollTop} id="scrollTopLink">
                     &copy; Designed by John Doe.
                 </button>
