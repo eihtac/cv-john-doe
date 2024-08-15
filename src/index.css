@@ -22,6 +22,14 @@ strong {
     color: black;
 }
 
+/* Header */
+
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8); 
+    transition: color 0.3s ease;
+}
+
+
 /* Home */
 .home .background {
     background: url(./assets/images/hero-bg.jpg) no-repeat center center;
@@ -73,6 +81,11 @@ strong {
     width: 200px;
     height: 4px;
     background-color: #0d6efd;
+}
+
+.services .card:hover .service-icon {
+    color: #cde1f8 !important;
+    transition: color 0.3s ease;
 }
 
 /* Réalisations */
@@ -153,4 +166,9 @@ footer .list-unstyled li::before {
     content: "> ";
     color: #0d6efd ; 
     margin-right: 5px; 
+}
+
+#scrollTopLink:hover {
+    background-color: #298eff !important;
+    transition: background-color 0.3s ease;
 }

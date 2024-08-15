@@ -16,7 +16,7 @@ const Blog = () => {
             <div className="underline mx-auto mb-3"></div>
             <div className="container my-5">
                 <div className="row">
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-sm-6 col-12 mb-4">
                         <div className="card text-start shadow-sm h-100 d-flex flex-column">
                             <img src={code} alt="Lignes de code" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -27,7 +27,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-sm-6 col-12 mb-4">
                         <div className="card text-start shadow-sm h-100 d-flex flex-column">
                             <img src={croissance} alt="Illustration croissance économique" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -38,7 +38,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-sm-6 col-12 mb-4">
                         <div className="card text-start shadow-sm h-100 d-flex flex-column">
                             <img src={google} alt="Ordinateur portable ouvert sur google" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -49,7 +49,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-sm-6 col-12 mb-4">
                         <div className="card text-start shadow-sm h-100 d-flex flex-column">
                             <img src={screens} alt="Différentes tailles d'écran" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -60,7 +60,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-sm-6 col-12 mb-4">
                         <div className="card text-start shadow-sm h-100 d-flex flex-column">
                             <img src={seo} alt="mots-clés liés au référencement" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -71,7 +71,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-sm-6 col-12 mb-4">
                         <div className="card text-start shadow-sm h-100 d-flex flex-column">
                             <img src={technos} alt="Différentes technologies" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
