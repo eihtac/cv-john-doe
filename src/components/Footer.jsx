@@ -28,7 +28,7 @@ const Footer = () => {
         <footer className="footer py-3 w-100 bg-light">
             <div className="container-fluid p-0">
                 <div className="row justify-content-center px-5 pt-5">
-                    <div className="col-md-3 px-5">
+                    <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>John Doe</h5>
                         <address>
                             <p>40 Rue Laure Diebold <br/> 
@@ -36,7 +36,6 @@ const Footer = () => {
                                 Téléphone : 06 20 30 40 50 <br/>
                                 <a href="/profilgithub" className="text-decoration-none text-dark">Profil Github</a>
                             </p> 
-
                         </address>
                         <div>
                             <a href="https://github.com" target="blank" rel="noopener noreferrer" className="m-2"> 
@@ -51,7 +50,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3 px-5">
+                    <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>Liens utiles</h5>
                         <ul className="list-unstyled">
                             <li><a href="/" className="text-decoration-none text-dark">Accueil</a></li> 
@@ -62,7 +61,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-md-3 px-5">
+                    <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>Mes dernières réalisations</h5>
                         <ul className="list-unstyled">
                             <li><a href="/realisations" className="text-decoration-none text-dark">Fresh food</a></li> 
@@ -71,7 +70,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-md-3 px-5">
+                    <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h5>Mes derniers articles</h5>
                         <ul className="list-unstyled">
                             <li><a href="/blog" className="text-decoration-none text-dark">Coder son site en HTML/CSS</a></li> 
@@ -80,14 +79,9 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <button
-                    className="btn btn-dark text-light text-center m-0 w-100 py-3 rounded-0 mt-4"
-                    onClick={handleScrollTop}
-                    id="scrollTopLink"
-                >
-                    
-                        &copy; Designed by John Doe.
-                    
+                
+                <button className="btn btn-dark text-light text-center m-0 w-100 py-3 rounded-0 mt-4" onClick={handleScrollTop} id="scrollTopLink">
+                    &copy; Designed by John Doe.
                 </button>
             </div>
         </footer>

@@ -8,12 +8,12 @@ const Realisations = () => {
     return (
         <div className="portfolio d-flex justify-content-center align-items-center flex-column">
             <img src={banner} alt="bannière décorative" className="img-fluid banner w-100"></img>
-            <h1 className="fs-1 pt-5 text-uppercase">Portfolio</h1>
-            <p>Voici quelques-unes de mes réalisations.</p>
+            <h1 className="fs-1 pt-5 text-uppercase text-center">Portfolio</h1>
+            <p className="text-center">Voici quelques-unes de mes réalisations.</p>
             <div className="underline mx-auto mb-1"></div> 
             <div className="container my-5">
                 <div className="row">
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-md-6 col-12 mb-4">
                         <div className="card text-center shadow-sm h-100 d-flex flex-column">
                             <img src={freshFood} alt="Légumes" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -24,7 +24,7 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-md-6 col-12 mb-4">
                         <div className="card text-center shadow-sm h-100 d-flex flex-column">
                             <img src={restaurant} alt="Nourriture japonaise" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
@@ -35,7 +35,7 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-lg-4 col-md-6 col-12 mb-4">
                         <div className="card text-center shadow-sm h-100 d-flex flex-column">
                             <img src={espaceBienEtre} alt="Ambiance zen" className="img-fluid card-img-top object-fit-cover" />
                             <div className="card-body d-flex flex-column p-0">
